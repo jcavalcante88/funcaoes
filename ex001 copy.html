@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Meu primeiro programa em javacript</title>
+
+    <style>
+      body {
+        background-color: yellowgreen;
+        color: white;
+        font: normal 20pt Araial;
+      }
+
+      h1 {
+        color: rgb(255, 212, 22);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>(Olá Mundo!)</h1>
+    <p>JavaScript é tudo!</p>
+    <script>
+      var n1 = Number.parseFloat(window.prompt("Digite um numero: ")); // string
+      var n2 = Number.parseFloat(window.prompt("Digite outro numero: ")); // string
+      var s = n1 + n2;
+      window.alert("A Soma dos valores é " + String(s)); //Concatenação
+      //(`A Soma entre ${n1} e ${n2} é igual a ${s}` )  Concatenação igual a de cima
+      // number + number para adição
+      // string + string para concatenação
+      //tirar parseFloat e deixar apenas number que tbm funciona
+
+      //String(n)
+      //n.toString()  conversões de number pra String e String para number
+    </script>
+  </body>
+</html>
